@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
-import { 
-  GitChangelog, 
-  GitChangelogMarkdownSection, 
-} from '@nolebase/vitepress-plugin-git-changelog/vite'
+// import { 
+//   GitChangelog, 
+//   GitChangelogMarkdownSection, 
+// } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -46,12 +46,12 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/matyas-services/selfhostguides' }
     ]
   },
-  vite: { 
-    plugins: [ 
-      GitChangelog({ 
-        repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
-      }), 
-      GitChangelogMarkdownSection(), 
-    ],
-  },
+  // vite: { 
+  //   plugins: [ 
+  //     GitChangelog({ 
+  //       repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
+  //     }), 
+  //     GitChangelogMarkdownSection(), 
+  //   ],
+  // },
 })
