@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About us
+description: Learn more about the team and mission behind selfhostguides.diy.
 ---
 <script setup>
 import {
