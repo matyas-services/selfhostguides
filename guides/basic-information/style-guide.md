@@ -1,5 +1,6 @@
 ---
 title: Style Guide
+description: Guidelines for writing clear, consistent, and helpful guides for selfhostguides.diy.
 ---
 
 # Style Guide for selfhostguides.diy

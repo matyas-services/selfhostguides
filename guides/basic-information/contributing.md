@@ -1,5 +1,6 @@
 ---
 title: Contributing Guide
+description: How to contribute guides, fixes, and improvements to selfhostguides.diy.
 ---
 
 # Contributing to selfhostguides.diy

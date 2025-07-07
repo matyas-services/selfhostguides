@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: Welcome to selfhostguides.diy, a community-powered platform for sharing self-hosting knowledge.
 ---
 
 # Welcome to selfhostguides.diy!
