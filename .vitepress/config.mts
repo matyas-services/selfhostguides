@@ -32,7 +32,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/matyas-services/selfhostguides/main/:path',
+      pattern: 'https://github.com/matyas-services/selfhostguides/edit/production/:path',
       text: 'Edit this page on GitHub'
     },
 
