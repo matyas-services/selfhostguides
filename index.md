@@ -5,7 +5,7 @@ description: Guides and resources from the selfhosting community
 
 hero:
   name: "selfhostguides.diy"
-  text: "the best place for guides made by the selfhosting community"
+  text: "guides and resources from the selfhosting community"
   # image:
   #   src: https://github.com/matyii.png
   actions:
@@ -23,6 +23,8 @@ features:
   - icon: "💻"
     title: Open Source
     details: Content is open for contributions and improvements by anyone.
+    linkText: Check out our GitHub
+    link: https://github.com/matyas-services/selfhostguides
   - icon: "📝"
     title: Easy to Follow
     details: Step-by-step instructions designed for all experience levels.
