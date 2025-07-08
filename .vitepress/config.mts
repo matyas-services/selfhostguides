@@ -50,6 +50,23 @@ export default defineConfig({
           { text: 'About us', link: '/guides/basic-information/about' },
         ]
       },
+      {
+        text: 'Self-Hosting Basics',
+        items: [
+          { text: 'Introduction to Self-Hosting', link: '/guides/selfhosting-basics/introduction-to-selfhosting' },
+          { text: 'Self-Hosting Beginners guide', link: '/guides/selfhosting-basics/beginners-guide' },
+          { text: 'Docker Beginner\'s Guide', link: '/guides/selfhosting-basics/docker-beginners' },
+          { text: 'How to set a Static IP Address', link: '/guides/selfhosting-basics/static-ip-guide' },
+        ]
+      },
+      {
+        text: 'Linux Basics',
+        items: [
+          { text: 'Introduction to Linux', link: '/guides/linux-basics/introduction' },
+          { text: 'Linux Basics', link: '/guides/linux-basics/linux-basics' },
+          { text: 'Vim Basics', link: '/guides/linux-basics/vim-guide' },
+        ]
+      },
     ],
 
     socialLinks: [
