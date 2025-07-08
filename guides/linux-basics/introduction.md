@@ -1,4 +1,9 @@
 
+---
+title: Introduction to Linux: A Step-by-Step Beginner's Guide
+description: Learn what Linux is, how to choose a distribution, and get started as a beginner with this step-by-step guide.
+---
+
 # Introduction to Linux: A Step-by-Step Beginner's Guide
 
 Linux is a free, open-source operating system used for everything from web servers to desktops. This guide will help you get started with Linux, even if you’ve never used it before.

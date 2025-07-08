@@ -9,10 +9,10 @@ export default defineConfig({
 
   transformHead: ({ pageData }) => {
     const head: HeadConfig[] = []
-
-    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
-    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
-
+    const title = pageData.frontmatter.title || 'selfhostguides.diy';
+    const description = pageData.frontmatter.description || 'Guides and resources from the selfhosting community';
+    head.push(['meta', { property: 'og:title', content: title }])
+    head.push(['meta', { property: 'og:description', content: description }])
     return head
   },
 
@@ -56,7 +56,7 @@ export default defineConfig({
           { text: 'Introduction to Self-Hosting', link: '/guides/selfhosting-basics/introduction-to-selfhosting' },
           { text: 'Self-Hosting Beginners guide', link: '/guides/selfhosting-basics/beginners-guide' },
           { text: 'Docker Beginner\'s Guide', link: '/guides/selfhosting-basics/docker-beginners' },
-          { text: 'How to set a Static IP Address', link: '/guides/selfhosting-basics/static-ip-guide' },
+          { text: 'How to Set a Static IP Address', link: '/guides/selfhosting-basics/static-ip-guide' },
         ]
       },
       {

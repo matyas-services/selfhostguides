@@ -1,3 +1,9 @@
+
+---
+title: selfhostguides.diy
+description: Community-driven guides and resources for self-hosting software and services.
+---
+
 # selfhostguides.diy
 
 Welcome to **selfhostguides.diy** – the best place for guides made by the selfhosting community! 🚀
