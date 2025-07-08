@@ -66,15 +66,6 @@ You become your own cloud provider.
 - Regularly update your system
 - Keep backups of important data
 
-
-## Where to Go Next?
-
-- [Starter Kit Guide](starter-kit.md)
-- [Docker for Self-Hosting](docker-intro.md)
-- [Running Your First App](uptime-kuma-guide.md)
-- [Home Networking Tips](home-networking.md)
-
-
 ## Final Thoughts
 
 Self-hosting puts you in control. It’s not just for techies anymore — it's for anyone who values privacy, learning, and digital independence.
