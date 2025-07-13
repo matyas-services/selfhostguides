@@ -1,4 +1,3 @@
-
 ---
 title: Vim Beginner's Guide
 description: A beginner-friendly guide to using Vim, the powerful text editor available on most Linux systems.
@@ -8,7 +7,6 @@ description: A beginner-friendly guide to using Vim, the powerful text editor av
 
 Vim is a powerful text editor available on almost every Linux system. This guide covers the basics to get you started.
 
----
 
 ## Opening and Exiting Vim
 
@@ -21,7 +19,6 @@ Vim is a powerful text editor available on almost every Linux system. This guide
 | Save and quit         | `:wq` or `ZZ`          |
 | Save (write)          | `:w`                   |
 
----
 
 ## Vim Modes
 
@@ -35,7 +32,6 @@ Vim has several modes. The two most important are:
 | Insert mode   | `i`      |
 | Normal mode   | `Esc`    |
 
----
 
 ## Basic Navigation
 
@@ -52,7 +48,6 @@ Vim has several modes. The two most important are:
 | `w`      | Next word            |
 | `b`      | Previous word        |
 
----
 
 ## Editing Text
 
@@ -79,7 +74,6 @@ Vim has several modes. The two most important are:
 | Next match            | `n`                    |
 | Previous match        | `N`                    |
 
----
 
 ## Visual Mode (Selecting Text)
 
@@ -88,7 +82,6 @@ Vim has several modes. The two most important are:
 - Use movement keys to expand selection
 - Press `y` to copy, `d` to cut, or `p` to paste after selection
 
----
 
 ## Useful Tips
 
@@ -99,7 +92,6 @@ Vim has several modes. The two most important are:
 - To open file explorer: `:Ex` or `:Explore`
 - To repeat last command: `.` (dot)
 
----
 
 ## Getting Better
 
@@ -107,6 +99,5 @@ Vim has several modes. The two most important are:
 - Practice! Vim is tricky at first but very fast once you learn the basics
 - Explore plugins and customizations as you get comfortable
 
----
 
 For more, see [Vim Adventures](https://vim-adventures.com/) (game), [Open Vim](https://openvim.com/), or the official [Vim documentation](https://www.vim.org/docs.php).

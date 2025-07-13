@@ -1,4 +1,3 @@
-
 ---
 title: Introduction to Self-Hosting
 description: Learn what self-hosting is, why it matters, and how to get started running your own apps and services.

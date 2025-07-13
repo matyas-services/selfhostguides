@@ -1,6 +1,5 @@
-
 ---
-title: Introduction to Linux: A Step-by-Step Beginner's Guide
+title: Introduction to Linux, A Step-by-Step Beginner's Guide
 description: Learn what Linux is, how to choose a distribution, and get started as a beginner with this step-by-step guide.
 ---
 

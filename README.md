@@ -1,8 +1,11 @@
-
 ---
 title: selfhostguides.diy
 description: Community-driven guides and resources for self-hosting software and services.
 ---
+
+<div align="center">
+  <img src="shg.png" alt="selfhostguides.diy logo" width="160" height="160" />
+</div>
 
 # selfhostguides.diy
 
