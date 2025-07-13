@@ -24,3 +24,7 @@ Content is released under the [Creative Commons Zero v1.0 Universal License](htt
 
 ---
 <p align="center">❤️ Made with love by the selfhosting community</p>
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=matyas-services/selfhostguides&type=Date)](https://www.star-history.com/#matyas-services/selfhostguides&Date)
