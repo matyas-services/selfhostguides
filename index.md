@@ -6,8 +6,8 @@ description: Guides and resources from the selfhosting community
 hero:
   name: "selfhostguides.diy"
   text: "guides and resources from the selfhosting community"
-  # image:
-  #   src: https://github.com/matyii.png
+  image:
+    src: shg.png
   actions:
     - theme: brand
       text: Browse Guides

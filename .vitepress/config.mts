@@ -20,8 +20,12 @@ export default defineConfig({
   lang: 'en-US',
   description: "the best place for guides made by the selfhosting community",
   lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/shg.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+
+    logo: '/shg.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Guides', link: '/guides/basic-information/introduction' },
@@ -65,6 +69,14 @@ export default defineConfig({
           { text: 'Introduction to Linux', link: '/guides/linux-basics/introduction' },
           { text: 'Linux Basics', link: '/guides/linux-basics/linux-basics' },
           { text: 'Vim Basics', link: '/guides/linux-basics/vim-guide' },
+        ]
+      },
+      {
+        text: 'Network Attached Storages',
+        items: [
+          { text: 'Introduction to NASes', link: '/guides/nases/introduction-to-nases' },
+          { text: 'Understanding RAID for NAS', link: '/guides/nases/raid-basics' },
+          { text: 'The 3-2-1 Backup Rule & Data Backup', link: '/guides/nases/321-backup-rule' }
         ]
       },
     ],

@@ -1,4 +1,3 @@
-
 ---
 title: Linux Basics Cheatsheet
 description: The most common Linux commands and concepts for beginners, perfect for self-hosting and server management.
