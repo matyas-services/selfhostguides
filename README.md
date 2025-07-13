@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="shg.png" alt="selfhostguides.diy logo" width="160" height="160" />
+  <img src="/shg.png" alt="selfhostguides.diy logo" width="160" height="160" />
 </div>
 
 # selfhostguides.diy
