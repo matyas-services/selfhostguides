@@ -28,6 +28,9 @@ You don’t need expensive gear. Here are a few starting points:
 - Mini PCs (e.g. Intel NUC, Beelink): Quiet and powerful  
 - VPS (e.g. Hetzner, DigitalOcean): If you prefer remote hosting  
 
+> [!TIP]
+> You can use the code `selfhostguides` for **20%** off at [ZAP-Hosting.com](https://zap-hosting.com) :wink:
+
 
 ## Step 2: Install a Server OS
 
