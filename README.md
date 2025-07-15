@@ -22,8 +22,8 @@ selfhostguides.diy is a community-driven platform for sharing guides, tutorials,
 
 Content is released under the [Creative Commons Zero v1.0 Universal License](https://creativecommons.org/publicdomain/zero/1.0/).
 
----
-<p align="center">❤️ Made with love by the selfhosting community</p>
-
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=matyas-services/selfhostguides&type=Date)](https://www.star-history.com/#matyas-services/selfhostguides&Date)
+
+---
+<p align="center">❤️ Made with love by the selfhosting community</p>
