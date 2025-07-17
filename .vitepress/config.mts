@@ -1,8 +1,9 @@
 import { defineConfig, HeadConfig } from 'vitepress'
-// import { 
-//   GitChangelog, 
-//   GitChangelogMarkdownSection, 
-// } from '@nolebase/vitepress-plugin-git-changelog/vite'
+
+import { 
+  GitChangelog, 
+  GitChangelogMarkdownSection, 
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,6 +16,15 @@ export default defineConfig({
     head.push(['meta', { property: 'og:description', content: description }])
     return head
   },
+
+  vite: { 
+    plugins: [ 
+      GitChangelog({ 
+        repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
+      }), 
+      GitChangelogMarkdownSection(), 
+    ],
+  }, 
 
   title: "selfhostguides.diy",
   lang: 'en-US',
@@ -48,7 +58,7 @@ export default defineConfig({
       {
         text: 'Basic Information',
         items: [
-          { text: 'Introduction', link: '/guides/basic-information/introduction' },
+          { text: 'Introduction', link: '/README' },
           { text: 'Contributing', link: '/guides/basic-information/contributing' },
           { text: 'Style Guide', link: '/guides/basic-information/style-guide' },
           { text: 'About us', link: '/guides/basic-information/about' },
@@ -76,7 +86,8 @@ export default defineConfig({
         items: [
           { text: 'Introduction to NASes', link: '/guides/nases/introduction-to-nases' },
           { text: 'Understanding RAID for NAS', link: '/guides/nases/raid-basics' },
-          { text: 'The 3-2-1 Backup Rule & Data Backup', link: '/guides/nases/321-backup-rule' }
+          { text: 'The 3-2-1 Backup Rule & Data Backup', link: '/guides/nases/321-backup-rule' },
+          { text: 'Prebuilt vs DIY NAS', link: '/guides/nases/prebuilt-vs-diy' }
         ]
       },
     ],
@@ -84,13 +95,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/matyas-services/selfhostguides' }
     ]
-  },
-  // vite: { 
-  //   plugins: [ 
-  //     GitChangelog({ 
-  //       repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
-  //     }), 
-  //     GitChangelogMarkdownSection(), 
-  //   ],
-  // },
+  }
 })

@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Browse Guides
-      link: /guides/basic-information/introduction
+      link: /README
     - theme: alt
       text: About
       link: /guides/basic-information/about
