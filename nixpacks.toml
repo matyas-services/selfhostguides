@@ -1,9 +1,0 @@
-[phases.setup]
-nixPkgs = ["git", "bun"]
-
-[phases.build]
-cmds = [
-  "cd /app && git init",
-  "bun install --no-save",
-  "bun run docs:build"
-]

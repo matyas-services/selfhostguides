@@ -1,10 +1,5 @@
 import { defineConfig, HeadConfig } from 'vitepress'
 
-import { 
-  GitChangelog, 
-  GitChangelogMarkdownSection, 
-} from '@nolebase/vitepress-plugin-git-changelog/vite'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
@@ -16,22 +11,6 @@ export default defineConfig({
     head.push(['meta', { property: 'og:description', content: description }])
     return head
   },
-
-  vite: { 
-    plugins: [ 
-      GitChangelog({ 
-        repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
-        mapAuthors: [ 
-          { 
-            name: 'Kristóf Mátyás', 
-            username: 'matyii',
-            mapByEmailAliases: ['matyas@matyas.services'] 
-          } 
-        ] 
-      }), 
-      GitChangelogMarkdownSection(), 
-    ],
-  }, 
 
   title: "selfhostguides.diy",
   lang: 'en-US',
@@ -45,7 +24,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guides', link: '/guides/basic-information/introduction' },
+      { text: 'Guides', link: '/README' },
       { text: 'Contributing', link: '/guides/basic-information/contributing' }
     ],
     search: {

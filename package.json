@@ -3,7 +3,6 @@
     "vue": "^3.5.17"
   },
   "devDependencies": {
-    "@nolebase/vitepress-plugin-git-changelog": "^2.18.0",
     "vitepress": "^1.6.3"
   },
   "scripts": {
