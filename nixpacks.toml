@@ -3,7 +3,7 @@ nixPkgs = ["git", "bun"]
 
 [phases.build]
 cmds = [
-  "git init",
+  "cd /app && git init",
   "bun install --no-save",
   "bun run docs:build"
 ]
