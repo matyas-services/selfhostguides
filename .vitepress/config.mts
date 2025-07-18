@@ -21,6 +21,13 @@ export default defineConfig({
     plugins: [ 
       GitChangelog({ 
         repoURL: () => 'https://github.com/matyas-services/selfhostguides', 
+        mapAuthors: [ 
+          { 
+            name: 'Kristóf Mátyás', 
+            username: 'matyii',
+            mapByEmailAliases: ['matyas@matyas.services'] 
+          } 
+        ] 
       }), 
       GitChangelogMarkdownSection(), 
     ],
